@@ -46,7 +46,7 @@ const Wishlist = (props) => {
  
     return ( 
         <Fragment>
-            { Wishlist && Wishlist.length > 0 &&   // <!-- New Wishlist Start -->
+            { Wishlist && wishlist && Wishlist.length > 0 &&   // <!-- New Wishlist Start -->
 
                 <section className="section ec-new-product section-space-p">
                     <div className="container">
