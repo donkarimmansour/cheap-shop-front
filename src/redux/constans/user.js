@@ -1,0 +1,12 @@
+const LOGIN = "LOGIN"
+const SIGNUP = "SIGNUP"
+const FORGOT = "FORGOT"
+const PROFILE = "PROFILE"
+const ADDRESS = "ADDRESS"
+const CONFIRM = "CONFIRM"
+const IMAGE = "IMAGE"
+
+
+export {
+    LOGIN , SIGNUP , FORGOT , PROFILE , ADDRESS , CONFIRM , IMAGE
+}
