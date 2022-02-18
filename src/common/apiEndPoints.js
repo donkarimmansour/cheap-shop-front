@@ -1,6 +1,6 @@
 
 const Host = {
-  ROOT: "http://localhost:3001",
+  ROOT: "https://ectestone.herokuapp.com",
   PREFIX: "/v1/api", 
 };
 
