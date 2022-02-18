@@ -1,3 +1,5 @@
+import { ApiEndpoints, Host } from "../common/apiEndPoints"
+
 const calculateRating = (rates , multi = true) => {
     if(!rates || rates.length == 0){
         return ["fas fa-star", "fas fa-star", "fas fa-star", "fas fa-star", "fas fa-star"]
@@ -26,7 +28,7 @@ const calculateRating = (rates , multi = true) => {
 }
 
 const ImageLink = (img) => {
-    return `http://localhost:3001/v1/api/file/get-single-image/${img}/view`
+    return `${Host.ROOT}/${Host.PREFIX}/file/get-single-image/${img}/view`
 }
 
 const countDown = (end) => {
