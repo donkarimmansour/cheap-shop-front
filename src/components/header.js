@@ -386,7 +386,7 @@ return (
 
 
                      <ul>
-                        <li className={ myClassName("" , {"active" : pathname.includes("/home") })}><Link to="/home">{t("Home")}</Link></li>
+                        <li className={ myClassName("" , {"active" : pathname === "" })}><Link to="/">{t("Home")}</Link></li>
 
                         <li className={ myClassName("dropdown" , {"active" : pathname.includes("/Category") })}><Link to="#">{t('Category')}</Link>
                               <ul className="sub-menu">
@@ -453,7 +453,7 @@ return (
                <ul>
 
        
-                  <li className={ myClassName("" , {"active" : pathname.includes("/home") })}><Link to="/home">{t("Home")}</Link></li>
+                  <li className={ myClassName("" , {"active" : pathname === "" })}><Link to="/">{t("Home")}</Link></li>
 
                     <li className={ myClassName("dropdown" , {"active" : pathname.includes("/category") })}>
                     <span className="menu-toggle" onClick={(e) => {menuToggle(e)}}></span><Link to="#">{t('category')}</Link>
